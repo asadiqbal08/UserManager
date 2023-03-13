@@ -35,10 +35,7 @@ Visit: http://127.0.0.1:8000/accounts/login/
 Attached the following screenshots to get basic idea. 
 
 
-
-
-<img width="347" alt="Screenshot 2023-03-13 at 20 50 02" src="https://user-images.githubusercontent.com/7334669/224816676-771295ca-cfe7-4c30-8993-7e3e9860e0dd.png">
-
+![](../../../../var/folders/sb/t7rhdkyx0cv13qqtbkqg5mqm0000gn/T/TemporaryItems/NSIRD_screencaptureui_M0D8cx/Screenshot 2023-03-13 at 21.12.18.png)
 
 <img width="340" alt="Screenshot 2023-03-13 at 20 50 16" src="https://user-images.githubusercontent.com/7334669/224816737-fbc019f5-cfdb-4a11-8bcb-5eaf3fc94d28.png">
 <img width="369" alt="Screenshot 2023-03-13 at 20 50 27" src="https://user-images.githubusercontent.com/7334669/224816785-ddfce936-129b-402a-81a2-cc416a9066dd.png">
