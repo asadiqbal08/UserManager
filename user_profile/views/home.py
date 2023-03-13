@@ -2,4 +2,4 @@ from django.views.generic import TemplateView
 
 
 class HomeView(TemplateView):
-    template_name = 'registration/home.html'
+    template_name = 'home.html'

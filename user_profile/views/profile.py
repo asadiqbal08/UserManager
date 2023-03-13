@@ -14,16 +14,16 @@ class ProfileBaseView(LoginRequiredMixin, View):
 
 class ProfileUpdate(ProfileBaseView, UpdateView):
     form_class = UserProfileForm
-    template_name = "registration/profile_edit.html"
+    template_name = "profile/edit.html"
 
 
 class ProfileDelete(ProfileBaseView, DeleteView):
-    template_name = "registration/profile_confirm_delete.html"
+    template_name = "profile/confirm_delete.html"
 
 
 class ProfileCreate(ProfileBaseView, CreateView):
     form_class = UserProfileForm
-    template_name = "registration/profile_create.html"
+    template_name = "profile/create.html"
 
     def form_valid(self, form):
         form.instance.user_id = self.request.user.id
