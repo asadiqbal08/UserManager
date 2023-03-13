@@ -8,9 +8,7 @@ SOCIAL_AUTH_GITHUB_SECRET=<SECRET_KEY>
 ```
 
 
-### ScreenShot to register application:
-
-
+### ScreenShot to register application with GitHub:
 
 <img width="639" alt="Screenshot 2023-03-13 at 20 59 27" src="https://user-images.githubusercontent.com/7334669/224819158-bc1fb039-e004-4a49-bafc-29651e4ffc61.png">
 
