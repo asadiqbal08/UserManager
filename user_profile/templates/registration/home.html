@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+Hello, {{ user.username|default:'Guest' }}!
+
+<div>
+    {% if user.profile %}
+        <p>
+            <a href="{% url 'user_profile:profile_update' user.profile.id %}">Update Profile</a><br>
+        </p>
+        <p>
+            <a href="{% url 'user_profile:profile_delete' user.profile.id %}">Delete</a>
+            your profile {{ user.profile.id }} ?
+
+        </p>
+    {% else %}
+        <a href="{% url 'user_profile:profile_create'%}">Create Profile</a>
+    {% endif %}
+
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+    <p>
+        Hello, {{ user.username|default:'Guest' }}!
+    </p>
+    <div>
+        <form method="POST">
+            {% csrf_token %}
+            <table>
+                {{ form.as_table }}
+            </table>
+             <input type="submit" value="Update">
+        </form>
+    </div>
+
+{% endblock %}
