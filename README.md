@@ -3,9 +3,17 @@
 In order to login with Github and using it as oauth provider please follow the steps mentioned [here](https://idp.miniorange.com/login-using-github-as-oauth-server/) and update the follwing client/secrent keys in a .env file locally. 
 
 ```
-SOCIAL_AUTH_GITHUB_KEY=
-SOCIAL_AUTH_GITHUB_SECRET=
+SOCIAL_AUTH_GITHUB_KEY= <CLIENT_KEY>
+SOCIAL_AUTH_GITHUB_SECRET=<SECRET_KEY>
 ```
+
+
+### ScreenShot to register application:
+
+
+
+<img width="639" alt="Screenshot 2023-03-13 at 20 59 27" src="https://user-images.githubusercontent.com/7334669/224819158-bc1fb039-e004-4a49-bafc-29651e4ffc61.png">
+
 
 ### Install Requirements
 
@@ -22,9 +30,12 @@ inside the virtual environment, Run this
 ### Run Server
 ```
 ./manage.py runserver
+
 ```
+Visit: http://127.0.0.1:8000/accounts/login/
 
 Attached the following screenshots to get basic idea. 
+
 
 
 
