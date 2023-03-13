@@ -23,12 +23,14 @@ source venv/bin/activate
 
 inside the virtual environment, Run this 
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+./manage.py migrate 
+```
 
 ### Run Server
 ```
 ./manage.py runserver
-
 ```
 Visit: http://127.0.0.1:8000/accounts/login/
 
